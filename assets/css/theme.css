@@ -553,7 +553,7 @@ body.tt-magic-cursor #magic-cursor {
 	margin-bottom: 30px;
 }
 
-.h1, h1 { font-size: 3.08vw; }
+.h1, h1 { font-size: 3.08rem; }
 .h2, h2 { font-size: 42px; }
 .h3, h3 { font-size: 38px; }
 .h4, h4 { font-size: 34px; }
@@ -1395,6 +1395,7 @@ body.tt-smooth-scroll.tt-ol-menu-open .scrollbar-track {
 	line-height: 1.2;
 	color: #eaeaea;
 	transition: opacity 0.3s ease-in-out;
+	text-decoration: none;
 }
 
 /* Overlay menu list hover/active (master parent). Note: no effect on mobile devices! */
@@ -1577,7 +1578,7 @@ body:not(.is-mobile) .tt-ol-menu-list > li > .tt-ol-submenu-trigger.tt-ol-submen
 	padding-right: 5px;
 	overflow: hidden;
 	text-align: right;
-	font-size: 1vw;
+	font-size: 1rem;
 	color: #FFF;
 	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
 }
@@ -3464,6 +3465,7 @@ body.tt-boxed .tt-wrap .tt-grid.ttgr-gap-6 {
 
 #portfolio-grid {
 	position: relative;
+	margin: 0 10vw;
 }
 
 /* Portfolio grid item */
@@ -6211,7 +6213,7 @@ body:not(.is-mobile) .tt-content-carousel.cc-hide-pagination .tt-cc-pagination {
 }
 .tt-testimonials-slider .tt-ts-subtext {
 	margin-top: 30px;
-	font-size: 1.3vw;
+	font-size: 1.5rem;
 	color: #999;
 }
 
@@ -8891,7 +8893,7 @@ body:not(.tt-boxed) .tt-footer-inner,
 	align-items: center;
 	text-align: center;
 	font-weight: 300;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	line-height: 3.3rem;
 	margin-bottom: 8px;
 	letter-spacing: 0.2px;
@@ -8901,7 +8903,7 @@ body:not(.tt-boxed) .tt-footer-inner,
 	align-items: center;
 	text-align: center;
 	font-weight: 300;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	line-height: 3.3rem;
 	margin-bottom: 8px;
 	letter-spacing: 1px;
@@ -8913,7 +8915,7 @@ body:not(.tt-boxed) .tt-footer-inner,
 	align-items: center;
 	text-align: center;
 	font-weight: bold;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	line-height: 3.3rem;
 	margin-bottom: 8px;
 	letter-spacing: 1px;
@@ -8925,7 +8927,7 @@ body:not(.tt-boxed) .tt-footer-inner,
 	align-items: center;
 	text-align: center;
 	font-weight: 300;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	line-height: 3.3rem;
 	margin-bottom: 8px;
 	letter-spacing: 1px;
@@ -8936,7 +8938,7 @@ body:not(.tt-boxed) .tt-footer-inner,
 	align-items: center;
 	text-align: center;
 	font-weight: 300;
-	font-size:1vw;
+	font-size:1rem;
 	line-height: 3.3rem;
 	margin-bottom: 8px;
 	letter-spacing: 1px;
@@ -8949,7 +8951,7 @@ body:not(.tt-boxed) .tt-footer-inner,
 	align-items: center;
 	color: #FFCE4F;
 	text-align: center;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	font-weight: 700;
 	line-height: 3.3rem;
 	margin-bottom: 8px;
@@ -9163,7 +9165,7 @@ li.hover3 {
 .mask p{
     padding: 2.7vw;
     word-break: break-all;
-	font-size: 1.3vw;
+	font-size: 1.5rem;
 	line-height: 3.3rem;
 	margin-bottom: 15px;
 	font-weight: 300;
@@ -9197,7 +9199,7 @@ li.hover3 {
 	.mask p{
 		padding: 2.7vw;
 		word-break: break-all;
-		font-size: 1.2vw;
+		font-size: 1.2rem;
 		font-weight: 300;
 		text-align: justify;
 		letter-spacing: 0.2px;
@@ -9258,7 +9260,7 @@ li.hover3 {
 .hints-text{
 	font-style:italic;
 	font-weight:400;
-	font-size:1vw;
+	font-size:1rem;
 	line-height: 20px;
 	color: rgba(255,255,255,0.9);
 
@@ -9285,7 +9287,7 @@ li.hover3 {
 }
 
 .echart1 img{
-	width: 40vw;
+	width: 53vw;
 }
 
 #lineout{
@@ -9303,7 +9305,7 @@ li.hover3 {
 	padding: 0 12.4vw;
 	margin-bottom: 15px;
 	font-weight: 400;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	letter-spacing: 0.2px;
 }
 
@@ -9317,7 +9319,7 @@ li.hover3 {
 	padding: 0 26.8vw;
 	margin-bottom: 15px;
 	font-weight: 700;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	color: #FFCE4F;
 	letter-spacing: 0.2px;
 
@@ -9327,7 +9329,7 @@ li.hover3 {
 	padding: 0 23.25vw;
 	margin-bottom: 15px;
 	font-weight: 300;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	text-align: justify;
 	letter-spacing: 0.2px;
 }
@@ -9336,7 +9338,7 @@ li.hover3 {
 	padding: 0 20.25vw;
 	margin-bottom: 15px;
 	font-weight: 300;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	text-align: justify;
 	letter-spacing: 0.2px;
 }
@@ -9345,7 +9347,7 @@ li.hover3 {
 	line-height: 3.3rem;
 	margin-bottom: 15px;
 	font-weight: 300;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	text-align: justify;
 	letter-spacing: 0.2px;
 }
@@ -9356,7 +9358,7 @@ li.hover3 {
 		padding: 0 10vw;
 		margin-bottom: 15px;
 		font-weight: 400;
-		font-size:1.3vw;
+		font-size:1.5rem;
 		letter-spacing: 0.2px;
 	}
 	
@@ -9370,7 +9372,7 @@ li.hover3 {
 		padding: 0 10vw;
 		margin-bottom: 15px;
 		font-weight: 700;
-		font-size:1.3vw;
+		font-size:1.5rem;
 		color: #FFCE4F;
 		letter-spacing: 0.2px;
 	
@@ -9380,7 +9382,7 @@ li.hover3 {
 		padding: 0 10vw;
 		margin-bottom: 15px;
 		font-weight: 300;
-		font-size:1.3vw;
+		font-size:1.5rem;
 		text-align: justify;
 		letter-spacing: 0.2px;
 	}
@@ -9389,7 +9391,7 @@ li.hover3 {
 		padding: 0 10vw;
 		margin-bottom: 15px;
 		font-weight: 300;
-		font-size:1.3vw;
+		font-size:1.5rem;
 		text-align: justify;
 		letter-spacing: 0.2px;
 	}
@@ -9398,7 +9400,7 @@ li.hover3 {
 		line-height: 3.3rem;
 		margin-bottom: 15px;
 		font-weight: 300;
-		font-size:1.3vw;
+		font-size:1.5rem;
 		text-align: justify;
 		letter-spacing: 0.2px;
 	}
@@ -9414,7 +9416,7 @@ li.hover3 {
 	margin:0 auto;
 	float: left;
 	font-weight:400;
-	font-size:1vw;
+	font-size:1rem;
 	/* line-height: 50px; */
 	color: #878787;}
 
@@ -9422,28 +9424,30 @@ li.hover3 {
 	margin:0 auto;
 	float: right;
 	font-weight:400;
-	font-size:1vw;
+	font-size:1rem;
 	/* line-height: 55px; */
 	color: #878787;}
 
 .picsrc1{
-	margin:0 auto;
+	margin:0;
 	font-weight:400;
-	font-size:1vw;
+	font-size:1rem;
 	/* line-height: 45px; */
 	color: #878787;}
 
 .picsrc2{
-	margin:0 auto;
+	margin:0;
 	font-weight:400;
-	font-size:1vw;
-	color: #878787;}	
+	font-size:1rem;
+	color: #878787;
+	text-align: left;
+}	
 
 	
 .picsrc3{
-	margin:0 auto;
+	margin:0;
 	font-weight:400;
-	font-size:0.91vw;
+	font-size:0.91rem;
 	color: #878787;}	
 
 .infochart{
@@ -9468,7 +9472,7 @@ li.hover3 {
 	margin-top: 40px;
 	margin-left: 0.67vw;
 	font-weight: bold;
-	font-size:1.3vw;
+	font-size:1.5rem;
 	text-align: justify;
 	letter-spacing: 0.2px;
 }
@@ -9494,7 +9498,7 @@ li.hover3 {
 .frame4{
 	margin:0 auto;
 	width:40.16vw;
-	height: 26.23vw;
+	height: 21vw;
 }
 
 .frame5{
@@ -9537,7 +9541,7 @@ li.hover3 {
 
 @media(max-width: 1024px){
 	.echart1 img{
-		width: 90vw;
+		width: 90vw!important;
 	}
 	.echart2{
 		width:90vw;
